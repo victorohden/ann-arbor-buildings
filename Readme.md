@@ -15,5 +15,7 @@ To recreate this script, you should:
       - Be careful with the amount of data.
 4. Create a Folium map to share the data in `.html`. All the steps are in the [third notebook](./3-plot-map.ipynb).
 
-
+**Final result - Map**
 <iframe src="./buildings_ann_Arbor.html" width="100%" height="600px"></iframe>
+
+*This list was based in the book and may be out-of-date.*
