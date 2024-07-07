@@ -6,7 +6,7 @@ To recreate this script, you should:
 
 1. Create a virtual environment with all the dependencies. You can use the [requirements.txt](./requirements.txt) file.
 2. Clean up and organize the [list](./list_buildings.txt). This part is important to avoid losing or creating any wrong address. The [first notebook](./1-list-buildings-organize-dataset.ipynb) has all the steps to do it.
-3. Convert the addresses into coordinates. We used the geopy package to translate the addresses into coordinates. This part is in the [second notebook](./2-get-coordinates.ipynb). In our code, we tested the use of Google, Nominatim, and Photon. Some addresses did not appear in Nominatim and Photon. The reason is unclear, but it could be due to a lack of updates. For Google, you need to create a project in Google:
+3. Convert the addresses into coordinates. We used the `geopy` package to translate the addresses into coordinates. This part is in the [second notebook](./2-get-coordinates.ipynb). In our code, we tested the use of Google, Nominatim, and Photon. Some addresses did not appear in Nominatim and Photon. The reason is unclear, but it could be due to a lack of updates. For Google, you need to create a project in Google:
     - Obtain an API Key: You need to obtain an API key from the Google Cloud Console. Here's a quick guide on how to get started:
       - Go to the Google Cloud Console.
       - Create a new project or select an existing project.
