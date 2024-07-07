@@ -14,3 +14,6 @@ To recreate this script, you should:
       - Create an API key and restrict its usage to the Google Maps Geocoding API.
       - Be careful with the amount of data.
 4. Create a Folium map to share the data in `.html`. All the steps are in the [third notebook](./3-plot-map.ipynb).
+
+
+<iframe src="./buildings_ann_Arbor.html" width="100%" height="600px"></iframe>
